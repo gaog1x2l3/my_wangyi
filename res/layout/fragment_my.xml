@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/title_red_bg2" >
+
+        <ImageView
+            android:id="@+id/head_photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_photo"
+            android:layout_centerHorizontal="true"
+            android:text="立即登陆" />
+
+        <TextView
+            android:id="@+id/tv_jifeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_login"
+            android:layout_centerHorizontal="true"
+            android:text="赢积分 抢大礼！"
+            android:textColor="#FCE884" />
+
+        <TextView
+            android:id="@+id/tv_setring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/head_photo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:text="设置"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btn_read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/biz_pc_main_read_icon"
+            android:text="阅读"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#AAAAAA" />
+
+        <Button
+            android:id="@+id/btn_love"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/biz_pc_main_fav_icon"
+            android:text="收藏"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#AAAAAA" />
+
+        <Button
+            android:id="@+id/btn_genti"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/biz_pc_main_tie_icon"
+            android:text="跟帖"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#AAAAAA" />
+
+        <Button
+            android:id="@+id/btn_god"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/biz_pc_main_golden_icon"
+            android:text="金币"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#F6F6F6" />
+
+    <TextView
+        android:id="@+id/tv_mymassage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="我的消息" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+    <TextView
+        android:id="@+id/tv_goldmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="金币商城" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+    <TextView
+        android:id="@+id/tv_myassignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="我的任务" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+    <TextView
+        android:id="@+id/tv_mywallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="我的钱包" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+    <TextView
+        android:id="@+id/tv_activity_square "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="活动广场" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+    <TextView
+        android:id="@+id/tv_myemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/biz_pc_main_arrow"
+        android:padding="5dp"
+        android:text="我的邮箱" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#f6f6f6" />
+
+</LinearLayout>

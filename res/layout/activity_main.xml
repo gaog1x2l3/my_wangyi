@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/fragment_replse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F6F6F6"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6F6F6"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/ad_news"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/news_select"
+                android:text="新闻"
+                 />
+
+            <RadioButton
+                android:id="@+id/ad_read"
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/read_select"
+                android:text="阅读"
+                />
+
+            <RadioButton
+                android:id="@+id/ad_vido"
+                
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/vido_select"
+                android:text="视听"
+			/>
+            <RadioButton
+                android:id="@+id/ad_discover"
+           		
+                style="@style/main_tab_bottom"
+                android:drawableTop="@drawable/discover_select"
+                android:text="发现"
+				/>
+            <RadioButton
+                android:id="@+id/ad_my"
+                android:drawableTop="@drawable/my_select"
+                android:text="我"
+                style="@style/main_tab_bottom"
+                
+                 />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/tab"
+        android:layout_alignParentLeft="true"
+        android:background="#F6F6F6" />
+
+</RelativeLayout>
